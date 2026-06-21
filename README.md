@@ -1,5 +1,9 @@
 # Edge-Cloud Dynamic Compute Broker
 
+[![NPM Version](https://img.shields.io/npm/v/edge-cloud-broker.svg)](https://www.npmjs.com/package/edge-cloud-broker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI Pipeline](https://github.com/lalPratheesh/edge-cloud-broker/actions/workflows/ci.yml/badge.svg)](https://github.com/lalPratheesh/edge-cloud-broker/actions/workflows/ci.yml)
+
 A lightweight TypeScript routing library that dynamically routes AI prompts between local client-side models and cloud APIs based on an ultra-fast heuristic complexity analysis.
 
 ## The Problem
