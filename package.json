@@ -1,0 +1,26 @@
+{
+  "name": "edge-cloud-broker",
+  "version": "1.0.0",
+  "description": "Dynamic heuristic router for Edge and Cloud LLMs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run"
+  },
+  "keywords": ["llm", "routing", "edge", "cloud", "ai", "webllm", "transformers.js"],
+  "author": "Lal Pratheesh S S",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lalPratheesh/edge-cloud-broker"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
